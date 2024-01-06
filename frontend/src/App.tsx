@@ -8,6 +8,7 @@ import Signup from "./pages/Signup";
 import Notfound from "./pages/NotFound";
 import { useAuth } from "./context/AuthContext";
 
+
 function App() {
   console.log(useAuth()?.isLoggedIn)
   return (
